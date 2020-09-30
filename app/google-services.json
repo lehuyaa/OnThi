@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "374376585855",
+    "firebase_url": "https://duchuy1-a11d0.firebaseio.com",
+    "project_id": "duchuy1-a11d0",
+    "storage_bucket": "duchuy1-a11d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374376585855:android:8682b26c403c29fa90bd4a",
+        "android_client_info": {
+          "package_name": "com.ldh.onthidaihoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "374376585855-ohc7gt73iqqv2mulr3436fn8j35tdp23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEHdqHxZuP-5VQt6AtdH9s4J_qXRIJw-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "374376585855-ohc7gt73iqqv2mulr3436fn8j35tdp23.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

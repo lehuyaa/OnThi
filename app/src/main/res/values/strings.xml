@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">On Thi</string>
+    <string name="app_name">OnThiDaiHoc</string>
+    <string name="navigation_drawer_open">OPEN</string>
+    <string name="navigation_drawer_close">CLOSE</string>
+    <color name="clBlue">#3b5998</color>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edt_email">Email</string>
+    <string name="edt_pass">Mật Khẩu</string>
+    <string name="text_login">Đăng Nhập</string>
+    <string name="text_logo">H</string>
 </resources>

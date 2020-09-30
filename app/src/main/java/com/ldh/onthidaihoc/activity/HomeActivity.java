@@ -19,6 +19,7 @@ import com.google.firebase.auth.FirebaseUser;
 import com.ldh.onthidaihoc.R;
 import com.ldh.onthidaihoc.fragment.HomeFragment;
 import com.ldh.onthidaihoc.fragment.NotificationFragment;
+import com.ldh.onthidaihoc.fragment.RankFragment;
 
 public class HomeActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
 

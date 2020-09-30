@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="22sp"
+                    android:textColor="#ff0011"
+                    android:textStyle="bold"
+                     />
+
+                <TextView
+                    android:id="@+id/tvQuestion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:textStyle="italic"
+                     />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivIcon"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:layout_gravity="center"
+                android:visibility="visible" />
+
+            <RadioGroup
+                android:id="@+id/radGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp">
+
+                <RadioButton
+                    android:id="@+id/radA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:textSize="16sp"
+                    android:textColor="#1502c7"
+                    android:textStyle="bold"
+                     />
+
+                <RadioButton
+                    android:id="@+id/radB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:textSize="16sp"
+                    android:textColor="#1502c7"
+                    android:textStyle="bold"
+                     />
+
+                <RadioButton
+                    android:id="@+id/radC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:textSize="16sp"
+                    android:textColor="#1502c7"
+                    android:textStyle="bold"
+                     />
+
+                <RadioButton
+                    android:id="@+id/radD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:textSize="16sp"
+                    android:textColor="#1502c7"
+                    android:textStyle="bold"
+                     />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -15,10 +15,9 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.ldh.onthidaihoc.Fragment.HomeFragment;
-import com.ldh.onthidaihoc.Fragment.NotificationFragment;
-import com.ldh.onthidaihoc.Fragment.RankFragment;
+
 import com.ldh.onthidaihoc.R;
+import com.ldh.onthidaihoc.fragment.HomeFragment;
 
 public class HomeActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
 

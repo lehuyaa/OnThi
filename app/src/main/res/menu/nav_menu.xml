@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icon_home"
+            android:title="Trang Chủ" />
+
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/icon_notifications"
+            android:title="Thông Báo Từ Hệ Thống" />
+
+        <item
+            android:id="@+id/nav_ommunityActivity"
+            android:icon="@drawable/icon_user"
+            android:title="Cộng Đồng" />
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/icon_history_24"
+            android:title="Lịch Sử Làm Bài Test" />
+        <item
+            android:id="@+id/nav_test"
+            android:icon="@drawable/icon_test"
+            android:title="Bài Test Sắp Tới" />
+        <item
+            android:id="@+id/nav_rank"
+            android:icon="@drawable/icon_rank"
+            android:title="Bảng Xếp Hạng" />
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/icon_logout"
+            android:title="Đăng Xuất" />
+    </group>
+
+
+
+
+</menu>
+
+

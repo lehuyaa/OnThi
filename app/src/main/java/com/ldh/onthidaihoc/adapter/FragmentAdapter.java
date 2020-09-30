@@ -5,8 +5,9 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 
-import com.ldh.onthidaihoc.Fragment.ExamFragment;
-import com.ldh.onthidaihoc.Fragment.TrainingFragment;
+
+import com.ldh.onthidaihoc.fragment.ExamFragment;
+import com.ldh.onthidaihoc.fragment.TrainingFragment;
 
 public class FragmentAdapter extends FragmentStatePagerAdapter {
     public FragmentAdapter(@NonNull FragmentManager fm) {
